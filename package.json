@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Shareable ESlint configuration for Buoy Software",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "eslint"
   ],
@@ -13,5 +11,8 @@
   "contributors": [
     "Anthony Costanzo"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
 }
